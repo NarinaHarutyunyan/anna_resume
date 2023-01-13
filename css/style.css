@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #F0F0F0;
+}
+
+.conatiner {
+  max-width: 1480px;
+  color: #536872;
+  padding-top: 50px;
+}
+
+.photo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+.photo img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+.content {
+  text-align: center;
+}
+.content h1 {
+  color: #536872;
+  font: size 25px;
+  margin: 10px;
+}
+.content a {
+  display: block;
+  text-decoration: none;
+}
+.content a button {
+  background-color: #fff;
+  color: #536872;
+  border: none;
+  padding: 8px;
+  width: 200px;
+  margin-top: 10px;
+  border-radius: 8px;
+  box-shadow: 5px 5px 5px #536872;
+  cursor: pointer;
+  transition: all 1s ease;
+  font-size: 16px;
+}
+.content a :hover {
+  background-color: #536872;
+  color: #fff;
+}
+
+.aboutedu {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  color: #536872;
+  align-items: center;
+}
+.aboutedu div {
+  background-color: #fff;
+  flex-basis: 20%;
+  padding: 30px;
+  margin: 5px;
+  height: 200px;
+  text-align: center;
+  box-shadow: 5px 5px 5px #536872;
+}
+.aboutedu div h3 {
+  font-size: 16px;
+}
+.aboutedu div p {
+  margin-top: 10px;
+}
+
+.about {
+  height: 100vh;
+}
+
+@media screen and (max-width: 780px) {
+  .aboutedu {
+    flex-wrap: wrap;
+  }
+  .aboutedu div {
+    flex-basis: 100%;
+  }
+}/*# sourceMappingURL=style.css.map */
